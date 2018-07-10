@@ -1,6 +1,7 @@
 cmake_minimum_required( VERSION 3.1 )
 
 include( CMakePackageConfigHelpers )
+include( GNUInstallDirs )
 
 project ( cereal VERSION 1.2.2 )
 
