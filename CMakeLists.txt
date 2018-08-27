@@ -1,9 +1,9 @@
 cmake_minimum_required( VERSION 3.1 )
 
+project ( cereal VERSION 1.2.2 )
+
 include( CMakePackageConfigHelpers )
 include( GNUInstallDirs )
-
-project ( cereal VERSION 1.2.2 )
 
 option(SKIP_PORTABILITY_TEST "Skip portability (32 bit) tests" OFF)
 option(JUST_INSTALL_CEREAL "Don't do anything besides installing the library" OFF)
