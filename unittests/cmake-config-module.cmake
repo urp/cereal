@@ -44,7 +44,7 @@ file(WRITE ${BINARY_DIR}/test_source/CMakeLists.txt "
   endif()
   find_package(cereal REQUIRED)
   add_executable(cereal-test-config-module main.cpp)
-  target_link_libraries(cereal-test-config-module cereal)
+  target_link_libraries(cereal-test-config-module cereal::cereal)
   enable_testing()
   add_test(test-cereal-test-config-module cereal-test-config-module)
 ")
